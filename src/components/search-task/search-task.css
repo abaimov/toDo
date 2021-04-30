@@ -1,0 +1,7 @@
+.btn-todo {
+    width: 100%;
+    height: 100%;
+}
+input::placeholder {
+    color: #9e9e9e;
+}

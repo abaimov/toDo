@@ -1,0 +1,56 @@
+.task-block {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-block-yellow {
+    background-color: yellow;
+}
+.task-btn {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-btn div {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.task-done {
+    text-decoration: line-through;
+    font-weight: bolder;
+    color: #aaa;
+    font-size: 12px;
+}
+.trash {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trash i {
+    display: block;
+    color: red;
+}
+
+.exclamation {
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exclamation i {
+    display: block;
+    color: green;
+}
+.task-container {
+    border-bottom: 1px solid #aaa;
+}
